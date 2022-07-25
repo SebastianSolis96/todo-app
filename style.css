@@ -1,0 +1,80 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+body {
+	background: #FAFAFA;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 16px;
+}
+
+.wrap {
+	margin: auto;
+	max-width: 800px;
+	width: 90%;
+}
+
+.principal {
+	background: #0b5ca9;
+	color: #fff;
+    display: inline-block;
+	padding: 50px 0;
+    width: 100%;
+}
+
+.principal .form {
+	color: #212121;
+	text-align: center;
+}
+
+.principal .form input[type=text] {
+	border-radius: 5rem;
+	margin-bottom: 20px;
+	padding: 10px;
+	width: 100%;
+}
+
+.principal .form input[type=text].error {
+	border: 5px solid #093f71;
+	border-radius: 5rem;
+	color: blue;
+}
+
+.principal .form .btn {
+	background: none;
+	border: 1px solid #fff;
+	border-radius: .5rem;
+	color: #fff;
+	display: inline-block;
+	font-size: 16px;
+	padding: 15px;
+}
+
+.principal .form .btn:hover { 
+	border: 1px solid #062746; 
+	cursor: pointer;
+}
+
+/* - Task - */
+.task .list {
+    list-style-position: inside;
+}
+
+.task .list li {
+	border-bottom: 1px solid #B6B6B6;
+}
+
+.task .list li a {
+	color: #212121;
+	display: inline-block;
+	padding: 20px 0;
+	text-decoration: none;
+}
+
+.task .list li a:hover {
+	text-decoration: line-through;
+}
